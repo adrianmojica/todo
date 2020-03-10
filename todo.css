@@ -1,0 +1,119 @@
+.main  {
+    width: 400px;
+    margin: auto;
+    height: auto;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-top:10px;
+    font-family: 'Red Hat Display', sans-serif;
+    /* border: 1px solid lightgray; */
+}
+
+.todo-input {
+    display: inline-block;
+    width: 344px;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 30px;
+    text-indent: 10px;
+}
+
+::placeholder {
+    color: rgb(204, 204, 204);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(204, 204, 204);;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(204, 204, 204);;
+  }
+
+.add-todo {
+    display: inline-block;
+    width: 48px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: #6589f7;
+}
+
+
+.erase {
+    color:white;
+    background-color: #ec4a4a;
+    height: 30px;
+    width: 30px;    
+    border-radius: 30px;
+    border: none;
+}
+
+.erase:hover {
+    background-color: rgb(187, 4, 4);
+}
+
+.done {
+    color: white;
+    height: 30px;
+    background-color: #1eb71e;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.done:hover{
+    background-color: rgb(0, 173, 0);
+}
+
+#container {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top:10px;
+    border: 1px solid lightgray;
+    display: block;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    margin: 10px;
+    margin: 5px;
+    padding-top: 5px;
+    line-height: 2;
+    padding-bottom: 5px;
+}
+
+.todo-item:hover {
+    background: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+
+
+.strikedThrough {
+    text-decoration: line-through;
+    color:lightgrey;
+}
+
+.todo-title {
+    width: 300px;
+    margin-left: 10px;
+}
