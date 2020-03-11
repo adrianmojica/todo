@@ -1,0 +1,126 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #efe9e9;
+}
+
+.main  {
+    width: 500px;
+    margin: auto;
+    height: auto;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #464444;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #464444;
+}
+
+input {
+    display: block;
+    width: 490px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    text-indent: 5px;
+}
+
+.submit-meme {
+    color: white;
+    background-color: #6a6ad8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 373px;
+    height: 37px;
+    width: 120px;
+}
+
+#results-container {
+    border: 1px solid lightgray;
+    margin-top: 70px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.meme-list {
+    display:flex;
+}
+
+.meme-list li {
+    list-style: none;
+    
+}
+
+.meme-list {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+}
+
+.meme-container {
+    position: relative;
+    display: flex;
+    margin: 10px;
+}
+
+.meme-image {
+    max-width: 340px;
+    border-radius: 5px;
+}
+
+.erase {
+    color:white;
+    background-color: #ec4a4a;
+    height: 30px;
+    width: 30px;    
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    left: 95%;
+    top: -12px;
+}
+
+.erase:hover {
+    background-color: rgb(187, 4, 4);
+}
+
+.top-caption {
+    position: absolute;
+    display: block;
+    top: 10px;
+    max-width: inherit;
+    left: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+.bottom-caption {
+    position: absolute;
+    display: block;
+    max-width: inherit;
+    left: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
